@@ -41,7 +41,7 @@ Information content of event x with probability P(x):
 </br> 
 </br> 
 
-Entropy of a sample set of N event with pribabilities P1...Pn:
+Entropy of a sample event of N outcomes with pribabilities P1...Pn:
 
 ![](https://user-images.githubusercontent.com/27868570/52380294-87396c00-2a6d-11e9-8d82-acba394783db.png)
 </br> 
@@ -58,11 +58,20 @@ Mutual information between two random variables is defined as follows:
 Mutual information is a symmetric relation between two variables and it indicates the amount of information that one random variable reveals about the other. Or in other words:
 
 ![](https://user-images.githubusercontent.com/27868570/52527839-a0d9ee00-2ccf-11e9-9d48-e29b53a1f688.png)
+</br> 
+</br> 
+</br> 
 
  
 **Estimating Mutual Information** 
+</br> 
+</br> 
+</br> 
  
 **Maximal Information Coefficient**
+</br> 
+</br> 
+</br> 
 
 
 
