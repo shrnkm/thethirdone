@@ -12,12 +12,15 @@ The second category, however, include more general techniques that also cover no
 Distance correlation (dCor) is a nonlinear dependence measure and it can handle random variables with arbitrary dimensions. Not surprisingly, dCor works with the distance; the Euclidean distance. Assume we have two random variables X and Y. The first step is to form their corresponding transformed matrices, TMx and TMy. Then we calculate the distance covariance:
 
 ![](https://user-images.githubusercontent.com/27868570/51983505-1ad0d280-2499-11e9-9890-bfaf186753c3.png)
+
+</br> 
 </br> 
 </br> 
 
 And finally, we calculate the squared dCor value as follows:
 
 ![](https://user-images.githubusercontent.com/27868570/51983850-0e00ae80-249a-11e9-9751-908f8e677a49.png)
+</br> 
 </br> 
 </br> 
 
@@ -36,16 +39,19 @@ Information content of event x with probability P(x):
 ![](https://user-images.githubusercontent.com/27868570/52379671-6c65f800-2a6b-11e9-97b2-0dd7e05b510c.png)
 </br> 
 </br> 
+</br> 
 
 Entropy of a sample set of N event with pribabilities P1...Pn:
 
 ![](https://user-images.githubusercontent.com/27868570/52380294-87396c00-2a6d-11e9-8d82-acba394783db.png)
 </br> 
 </br> 
+</br> 
 
 Mutual information between two random variables is defined as follows:
 
 ![](https://user-images.githubusercontent.com/27868570/52519670-42752700-2c5f-11e9-97f6-7630757d8bff.png)
+</br> 
 </br> 
 </br> 
 
