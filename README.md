@@ -17,12 +17,11 @@ And finally, we calculate the square root of the dCor as follows:
 
 The dCor value is a real number between 0 and 1 (inclusively), and 0 means that the two variables are independent.
 
-|    
-|  
+
 
 **Mutual Information**
 
-Mutual information (MI) is a measure of dependance based on the core concept of information theory, entropy. Entropy is a measure of uncertainty, and is formulated based on the average information content of a set of possible events, which is, in turn, a measure of information.
+Mutual information (MI) is a measure of dependance based on the core concept of information theory, 'entropy.' Entropy is a measure of uncertainty, and is formulated based on the average 'information content' of a set of possible events, which is, in turn, a measure of information.
 
 Information content of event x with probability P(x):
 
@@ -32,7 +31,7 @@ Entropy of a sample set of N event with pribabilities P1...Pn:
 
 ![](https://user-images.githubusercontent.com/27868570/52380294-87396c00-2a6d-11e9-8d82-acba394783db.png)
 
-Mutual information between two random variable is defined as follows:
+Mutual information between two random variables is defined as follows:
 
 ![](https://user-images.githubusercontent.com/27868570/52519670-42752700-2c5f-11e9-97f6-7630757d8bff.png)
 
@@ -40,15 +39,15 @@ Mutual information is a symmetric relation between two variables and it indicate
 
 ![](https://user-images.githubusercontent.com/27868570/52527839-a0d9ee00-2ccf-11e9-9d48-e29b53a1f688.png)
 
-|    
-| 
-
+ 
+**Estimating Mutual Information** 
+ 
 **Maximal Information Coefficient**
 
-|    
-| 
 
-How does 'Statistical Dependance' help understanding artificial neural networks?
+
+
+How does 'Statistical Dependance' help understanding deep learning?
 -------------------------------------------------------------------------------- 
 |    
 |  
