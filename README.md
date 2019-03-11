@@ -32,16 +32,16 @@ The dCor value is a real number between 0 and 1 (inclusively), and 0 means that 
 
 **Mutual Information**
 
-Mutual information (MI) is a measure of dependance based on the core concept of information theory, 'entropy.' Entropy is a measure of uncertainty, and is formulated based on the average 'information content' of a set of possible events, which is, in turn, a measure of information.
+Mutual information (MI) is a measure of dependance based on the core concept of information theory, 'entropy.' Entropy is a measure of uncertainty, and is formulated based on the average 'information content' of a set of possible outcomes of an event, which is, in turn, a measure of information.
 
-Information content of event x with probability P(x):
+Information content of the outcome x with probability P(x):
 
 ![](https://user-images.githubusercontent.com/27868570/52379671-6c65f800-2a6b-11e9-97b2-0dd7e05b510c.png)
 </br> 
 </br> 
 </br> 
 
-Entropy of a sample event of N outcomes with pribabilities P1...Pn:
+Entropy of an event with N outcomes with pribabilities P1...Pn:
 
 ![](https://user-images.githubusercontent.com/27868570/52380294-87396c00-2a6d-11e9-8d82-acba394783db.png)
 </br> 
