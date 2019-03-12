@@ -62,8 +62,18 @@ Mutual information is a symmetric relation between two variables and it indicate
 </br> 
 </br> 
 
+Mutual information is a symmetric and non negative value. And a zero MI means two independent variables.
+</br> 
+</br> 
+</br> 
  
-**Estimating Mutual Information** 
+Calculating MI for discrete variables is somewhat easy, the problem arises when we try to calculate MI for a continuous variable; when we need to work with probability density function.
+</br> 
+</br> 
+</br> 
+ 
+
+**Estimating Mutual Information for ** 
 </br> 
 </br> 
 </br> 
