@@ -67,7 +67,8 @@ Mutual information is a symmetric and non negative value. And a zero MI means tw
 </br> 
 </br> 
  
-Calculating MI for discrete variables is somewhat easy, the problem arises when we try to calculate MI for a continuous variable; when we need to work with probability density function.
+Calculating MI for discrete variables is somewhat easy, the problem arises when we try to calculate MI for a continuous variable; that is, when the summation turns to integral and we need to work with probability density function.
+Here the problem of estimating MI becomes the problem of 'quantization,' and the method we want to use for reducing the continous function of probability density to a limited points.
 </br> 
 </br> 
 </br> 
