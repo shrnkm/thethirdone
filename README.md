@@ -84,6 +84,8 @@ Using a histogram is a simple, neat, and popular approach for MI estimation, whi
 </br> 
 
 **Adaptive Partitioning**
+Adaptive partitioning, as it is clear from its name, is another way of dividing data space into subsets and subsequent counting of the covered occurrences. The new thing about adaptive partitioning is that it does not confine itself to classic histogram bins, rather it feels free to use different-sized rectangular tiles to cover the data space in a way that increase the conditional independance between partitions.
+
 </br> 
 </br> 
 </br> 
