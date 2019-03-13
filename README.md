@@ -68,7 +68,10 @@ Mutual information is a symmetric and non negative value. And a zero MI means tw
 </br> 
  
 Calculating MI for discrete variables is somewhat easy, the problem arises when we try to calculate MI for a continuous variable; that is, when the summation turns to integral and we need to work with probability density function.
-Here the problem of estimating MI becomes the problem of 'quantization,' and the method we want to use for reducing the continous function of probability density to a limited points.
+Here the problem of estimating MI becomes the problem of 'quantization,' and the method we want to use for reducing the continuous function of probability density to a finite set of points.
+There are two main groups of MI estimators: parametric and non-parametric estimators. Parametric estimators are the ones that assume the probability density could be modelled with one of the most frequent distributions like Gaussian
+
+The main approaches for estimating MI are methods based on histogram, adaptive partitioning, kernel density, k-nearest neighbor, spline, and nonlinear correlation coefficient.
 </br> 
 </br> 
 </br> 
