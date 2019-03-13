@@ -87,9 +87,16 @@ Using a histogram is a simple, neat, and popular approach for MI estimation, whi
 </br> 
 </br> 
 
+
+**Kernel Density Estimation (KDE)**
+</br> 
+</br> 
+</br> 
+
+
 **Adaptive Partitioning**
 
-Adaptive partitioning, as it is clear from its name, is another way of dividing data space into subsets and subsequent counting of the covered occurrences. The new thing about adaptive partitioning is that it does not confine itself to classic histogram bins, rather it feels free to use different-sized rectangular tiles to cover the data space in a way that increase the conditional independance between partitions.
+Adaptive partitioning, as it is clear from its name, is another way of dividing data space into subsets and subsequent counting of the covered occurrences. The new thing about adaptive partitioning is that it does not confine itself to classic histogram bins, rather it feels free to use different-sized rectangular tiles to cover the data space in a way that increase the conditional independance between partitions. Partitioning is done through an iterative procedure in which after each step, the conditional independence of each tile regarding the other partitions will be examined using Chi-square statistical test.
 
 ![](https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12918-017-0458-5/MediaObjects/12918_2017_458_Fig1_HTML.gif)
 
@@ -99,10 +106,6 @@ Adaptive partitioning, as it is clear from its name, is another way of dividing 
 </br> 
 </br> 
 
-**Kernel Density Estimation (KDE)**
-</br> 
-</br> 
-</br> 
 
 **B-Spline**
 </br> 
