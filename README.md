@@ -71,7 +71,7 @@ Calculating MI for discrete variables is somewhat easy, the problem arises when 
 Here the problem of estimating MI becomes the problem of 'quantization,' and the method we want to use for reducing the continuous function of probability density to a finite set of points.
 There are two main groups of MI estimators: parametric and non-parametric estimators. Parametric estimators are the ones that assume the probability density could be modelled with one of the most frequent distributions like Gaussian. Non-parametric estimators assume nothing.
 
-The main approaches for estimating MI, in non-parametric way, are methods based on histogram, adaptive partitioning, kernel density, k-nearest neighbor, spline, and nonlinear correlation coefficient.
+The main approaches for estimating MI, in non-parametric way, are methods based on histogram, adaptive partitioning, kernel density, k-nearest neighbor, B-spline, wavelet density, and nonlinear correlation coefficient.
 </br> 
 </br> 
 </br> 
@@ -84,6 +84,34 @@ Using a histogram is a simple, neat, and popular approach for MI estimation, whi
 </br> 
 
 **Adaptive Partitioning**
+</br> 
+</br> 
+</br> 
+
+**Kernel Density Estimation (KDE)**
+</br> 
+</br> 
+</br> 
+
+**B-Spline**
+</br> 
+</br> 
+</br> 
+
+**K-Nearest Neighbor (KNN)**
+</br> 
+</br> 
+</br> 
+
+**Wavelet Density Estimator (WDE)**
+</br> 
+</br> 
+</br> 
+
+**Nonlinear Correlation Coefficient (NCC)**
+</br> 
+</br> 
+</br> 
 
 
 
