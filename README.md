@@ -76,11 +76,14 @@ The main approaches for estimating MI, in non-parametric way, are methods based 
 </br> 
 </br> 
 
-**Histogram-based Estimation** 
+**Histogram-based Estimation**
+Using a histogram is a simple, neat approach for MI estimation: we discretize the distribution into n number of bins. The number of bins is an arbitrary option, best decided on, cosidering the nature of our data. Using bins with constant width is not sensitive to the changes in data stream, and therfore, not as efficient as the histogram estimation could be. So another way is to focus on the bins width ratehr than their number. This approach will reduce the estimation error, but would increase the complexity of the method by adding a new probelm of how to dicide about the changing bin-width.
 </br> 
 </br> 
 </br> 
- 
+
+**Adaptive Partitioning**
+
 **Maximal Information Coefficient**
 </br> 
 </br> 
