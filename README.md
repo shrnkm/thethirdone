@@ -48,27 +48,24 @@ Entropy of an event with N outcomes with pribabilities P1...Pn:
 </br> 
 </br> 
 
-Mutual information is a symmetric relation between two variables and it indicates the amount of information that one random variable reveals about the other. Or in the other words the reduction of uncertainty about a variable, resulted from our knowledge about another one:
+Mutual information is a symmetric relation between two variables and it indicates the amount of information that one random variable reveals about the other. Or in other words the reduction of uncertainty about a variable, resulted from our knowledge about another one:
 
 ![](https://user-images.githubusercontent.com/27868570/52527839-a0d9ee00-2ccf-11e9-9d48-e29b53a1f688.png)
-</br> 
-</br> 
-</br> 
+
 
 Mutual information is a symmetric and non negative value. And a zero MI means two independent variables.
 </br> 
-</br> 
-</br> 
 
 
-Mutual information between two random variables is defined as follows:
+
+Calculating MI for discrete valued variables is somewhat easy, the problem arises when we try to calculate MI, or in fact the entropy itself, for variables with real, continuous values. For working under this condition, we use one other version of the the summation turns to integral and we need to work with probability density function.
 
 ![](https://user-images.githubusercontent.com/27868570/52519670-42752700-2c5f-11e9-97f6-7630757d8bff.png)
 </br> 
 </br> 
 </br> 
  
-Calculating MI for discrete variables is somewhat easy, the problem arises when we try to calculate MI for a continuous variable; that is, when the summation turns to integral and we need to work with probability density function.
+
 Here the problem of estimating MI becomes the problem of 'quantization,' and the method we want to use for reducing the continuous function of probability density to a finite set of points.
 There are two main groups of MI estimators: parametric and non-parametric estimators. Parametric estimators are the ones that assume the probability density could be modelled with one of the most frequent distributions like Gaussian. Non-parametric estimators assume nothing.
 
