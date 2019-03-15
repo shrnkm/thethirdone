@@ -77,13 +77,7 @@ Using a histogram is a simple, neat, and popular approach for MI estimation, whi
 </br> 
 
 
-**2.2. Kernel Density Estimation (KDE)**
-</br> 
-</br> 
-</br> 
-
-
-**2.3. Adaptive Partitioning**
+**2.2. Adaptive Partitioning**
 
 Adaptive partitioning, as it is clear from its name, is another way of dividing data space into subsets and subsequent counting of the covered occurrences. The new thing about adaptive partitioning is that it does not confine itself to classic histogram bins, rather it feels free to use different-sized rectangular tiles to cover the data space in a way that increase the conditional independance between partitions. Partitioning is done through an iterative procedure in which after each step, the conditional independence of each tile regarding the other partitions will be examined using Chi-square statistical test.
 
@@ -91,6 +85,13 @@ Adaptive partitioning, as it is clear from its name, is another way of dividing 
 
 *An example of adaptive partitioning procedure. He, J., Zhou, Z., Reed, M., & Califano, A. (2017). Accelerated parallel algorithm for gene network reverse engineering. BMC systems biology, 11(4), 83.*
 
+</br> 
+</br> 
+</br> 
+
+**2.3. Kernel Density Estimation (KDE)**
+
+Kernel density estimation, outperforms both histogram and adaptive partitioning methods, in accuracy. But, not surprisingly, it is computationally a heavier and slower method. The main difference of KDE is its tolerance in partitioning.
 </br> 
 </br> 
 </br> 
