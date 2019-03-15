@@ -58,18 +58,16 @@ Mutual information is a symmetric and non negative value. And a zero MI means tw
 
 
 
-Calculating MI for discrete valued variables is somewhat easy, the problem arises when we try to calculate MI, or in fact the entropy itself, for variables with real, continuous values. For working under this condition, we use one other version of the the summation turns to integral and we need to work with probability density function.
+Calculating MI for discrete valued variables is somewhat easy, the problem arises when we try to calculate MI, or in fact the entropy itself, for variables with real, continuous values. For working under this condition, we use the other version of MI formula which is a specific form of the more general form of Kullback-Leibler divergence and works on Probability Density Function (PDF) of joint probabilities:
 
 ![](https://user-images.githubusercontent.com/27868570/52519670-42752700-2c5f-11e9-97f6-7630757d8bff.png)
 </br> 
 </br> 
 </br> 
  
+However, the need for knowing PDF is another problem. In practice, we usually have access to a finite set of data spamles, and not the PDF they are representing. So before being able to calculate MI, or in essence entropy, we need to approximate the PDF itself. In this sense, the problem of estimating MI reduces to the problem of estimating PDF. In fact, most of MI estimators start with PDF estimation procedure. There are two main groups of MI estimators: parametric and non-parametric estimators. Parametric estimators are the ones that assume the probability density could be modelled with one of the most frequent distributions like Gaussian. Non-parametric estimators assume nothing about the hidden PDF.
 
-Here the problem of estimating MI becomes the problem of 'quantization,' and the method we want to use for reducing the continuous function of probability density to a finite set of points.
-There are two main groups of MI estimators: parametric and non-parametric estimators. Parametric estimators are the ones that assume the probability density could be modelled with one of the most frequent distributions like Gaussian. Non-parametric estimators assume nothing.
-
-The main approaches for estimating MI, in non-parametric way, are methods based on histogram, adaptive partitioning, kernel density, k-nearest neighbor, B-spline, wavelet density, and nonlinear correlation coefficient.
+The main approaches for estimating MI, in a non-parametric way, are methods based on histogram, adaptive partitioning, kernel density, k-nearest neighbor, B-spline, wavelet density, and nonlinear correlation coefficient.
 </br> 
 </br> 
 </br> 
