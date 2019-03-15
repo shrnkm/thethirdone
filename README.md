@@ -91,7 +91,9 @@ Adaptive partitioning, as it is clear from its name, is another way of dividing 
 
 **2.3. Kernel Density Estimation (KDE)**
 
-Kernel density estimation, outperforms both histogram and adaptive partitioning methods, in accuracy. But, not surprisingly, it is computationally a heavier and slower method. The main difference of KDE is its tolerance in partitioning.
+Kernel density estimation, outperforms both histogram and adaptive partitioning methods, in accuracy. But, not surprisingly, it is computationally a heavier and slower method. The main difference and advantage of KDE is its tolerance in partitioning. KDE not only does not restrict itself to rectangular, so to say, bins or any specific point in data space as the origin, and it also does not use strict lines at borders. What it uses is a kernel with an arbitrary width. This arbitrariness, again, is a weakness and makes the resulted PDF sensitive to the decision on the kernel width.
+In the next step, KDE calculates one of different possible probability densities including Gaussian, Rectangualr, and Epanechnikov around each data samples, add them up together to obtain a smooth PDF over all data samples from the superposition of these kernels. The resulted PDF is of high quality because of a smaller MSE rate.
+
 </br> 
 </br> 
 </br> 
