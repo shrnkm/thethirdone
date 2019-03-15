@@ -14,15 +14,12 @@ Distance correlation (dCor) is a nonlinear dependence measure and it can handle 
 ![](https://user-images.githubusercontent.com/27868570/51983505-1ad0d280-2499-11e9-9890-bfaf186753c3.png)
 
 </br> 
-</br> 
-</br> 
 
 And finally, we calculate the squared dCor value as follows:
 
 ![](https://user-images.githubusercontent.com/27868570/51983850-0e00ae80-249a-11e9-9751-908f8e677a49.png)
 </br> 
-</br> 
-</br> 
+
 
 The dCor value is a real number between 0 and 1 (inclusively), and 0 means that the two variables are independent.
 
@@ -38,14 +35,11 @@ Information content of the outcome x with probability P(x):
 
 ![](https://user-images.githubusercontent.com/27868570/52379671-6c65f800-2a6b-11e9-97b2-0dd7e05b510c.png)
 </br> 
-</br> 
-</br> 
+
 
 Entropy of an event with N outcomes with pribabilities P1...Pn:
 
 ![](https://user-images.githubusercontent.com/27868570/52380294-87396c00-2a6d-11e9-8d82-acba394783db.png)
-</br> 
-</br> 
 </br> 
 
 Mutual information is a symmetric relation between two variables and it indicates the amount of information that one random variable reveals about the other. Or in other words the reduction of uncertainty about a variable, resulted from our knowledge about another one:
@@ -62,8 +56,7 @@ Calculating MI for discrete valued variables is somewhat easy, the problem arise
 
 ![](https://user-images.githubusercontent.com/27868570/52519670-42752700-2c5f-11e9-97f6-7630757d8bff.png)
 </br> 
-</br> 
-</br> 
+
  
 However, the need for knowing PDF is another problem. In practice, we usually have access to a finite set of data spamles, and not the PDF they are representing. So before being able to calculate MI, or in essence entropy, we need to approximate the PDF itself. In this sense, the problem of estimating MI reduces to the problem of estimating PDF. In fact, most of MI estimators start with PDF estimation procedure. There are two main groups of MI estimators: parametric and non-parametric estimators. Parametric estimators are the ones that assume the probability density could be modelled with one of the most frequent distributions like Gaussian. Non-parametric estimators assume nothing about the hidden PDF.
 
