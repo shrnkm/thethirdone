@@ -60,7 +60,7 @@ Calculating MI for discrete valued variables is somewhat easy, the problem arise
  
 However, the need for knowing PDF is another problem. In practice, we usually have access to a finite set of data spamles, and not the PDF they are representing. So before being able to calculate MI, or in essence entropy, we need to approximate the PDF itself. In this sense, the problem of estimating MI reduces to the problem of estimating PDF. In fact, most of MI estimators start with PDF estimation procedure. There are two main groups of MI estimators: parametric and non-parametric estimators. Parametric estimators are the ones that assume the probability density could be modelled with one of the most frequent distributions like Gaussian. Non-parametric estimators assume nothing about the hidden PDF.
 
-The main approaches for estimating MI, in a non-parametric way, are methods based on histogram, adaptive partitioning, kernel density, k-nearest neighbor, B-spline, wavelet density, and nonlinear correlation coefficient.
+The main approaches for estimating MI, in a non-parametric way, are methods based on histogram, adaptive partitioning, kernel density, B-spline, and k-nearest neighbor.
 </br> 
 </br> 
 </br> 
@@ -117,29 +117,13 @@ This method is simply using basis spline function to approximate the underlying 
 
 **2.5. K-Nearest Neighbor (KNN)**
 
-K-Nearest Neighbor method has a big difference with the previous MI estimators. It bypasses the PDF approximation phase and jumps right into the MI calculation phase. For each data sample, KNN first picks K nearest other data samples and calculates entropy and then MI. KNN
+K-Nearest Neighbor method has a big difference with the previous MI estimators. It bypasses the PDF approximation phase and jumps right into the MI calculation phase. For each data sample, KNN first picks K nearest other data samples and calculates entropy and then MI. KNN 
+
+![](https://user-images.githubusercontent.com/27868570/54495665-34fa2f00-48e6-11e9-8830-b32725f997ba.png) 
 
 </br> 
 </br> 
 </br> 
-
-**2.6. Wavelet Density Estimator (WDE)**
-</br> 
-</br> 
-</br> 
-
-**2.7. Nonlinear Correlation Coefficient (NCC)**
-</br> 
-</br> 
-</br> 
-
-
-
-**3. Maximal Information Coefficient**
-</br> 
-</br> 
-</br> 
-
 
 
 
