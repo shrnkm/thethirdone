@@ -117,9 +117,12 @@ This method is simply using basis spline function to approximate the underlying 
 
 **2.5. K-Nearest Neighbor (KNN)**
 
-K-Nearest Neighbor method has a big difference with the previous MI estimators. It bypasses the PDF approximation phase and jumps right into the MI calculation phase. For each data sample, KNN first picks K nearest other data samples and calculates entropy and then MI. KNN 
+K-Nearest Neighbor method has a big difference with the previous MI estimators. It bypasses the PDF approximation phase and jumps right into the MI calculation phase. There is a family of KNN-based method for estimating MI, but the most popular one is the KSG. KSG uses a slightly modified MI formula in which the marginal and joint entropies for eache data smaple for each of two random variables are claculated using KL entropy estimator. KL entropy estimator computes entropy based on KNN idea, and with regards to the K smallest distances in a data set.
+KSG results are of high precision and it is a great option while working with high dimensional data. KSG is capable of working with irregular PDFs and it, currently, is one of the most popular MI estimators.
 
-![](https://user-images.githubusercontent.com/27868570/54495665-34fa2f00-48e6-11e9-8830-b32725f997ba.png) 
+![](https://user-images.githubusercontent.com/27868570/54495665-34fa2f00-48e6-11e9-8830-b32725f997ba.png)
+
+*The pseudocode for KSG. Gao, W., Kannan, S., Oh, S., & Viswanath, P. (2017). Estimating mutual information for discrete-continuous mixtures. In Advances in Neural Information Processing Systems (pp. 5986-5997).*
 
 </br> 
 </br> 
