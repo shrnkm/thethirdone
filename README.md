@@ -116,6 +116,9 @@ This method is simply using basis spline function to approximate the underlying 
 </br> 
 
 **2.5. K-Nearest Neighbor (KNN)**
+
+K-Nearest Neighbor method has a big difference with the previous MI estimators. It bypasses the PDF approximation phase and jumps right into the MI calculation phase. For each data sample, KNN first picks K nearest other data samples and calculates entropy and then MI. KNN
+
 </br> 
 </br> 
 </br> 
@@ -142,3 +145,6 @@ This method is simply using basis spline function to approximate the underlying 
 
 How does 'Statistical Dependance' help understanding deep learning?
 -------------------------------------------------------------------------------- 
+
+
+But, it is still a considerable concern whether 
