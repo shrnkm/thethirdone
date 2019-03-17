@@ -104,6 +104,10 @@ In the next step, KDE calculates one of different possible probability densities
 
 
 **2.4. B-Spline**
+
+This method is simply using basis spline function to approximate the underlying PDF. A B-spline function separates dataspce with equally-distanced hypotetical lines (or thier counterparts in case of working with higer dimensional data) and try to regress the data points trapped in each interval with a polynomial function. These continuous functions form the PDF which we will use later for calculating MI. B-spline results usually improve by increasing the function order. But when the final goal is estimating MI, increasing the order to more than 3 won't affect the result.
+
+![]()
 </br> 
 </br> 
 </br> 
