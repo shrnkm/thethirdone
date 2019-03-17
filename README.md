@@ -107,7 +107,10 @@ In the next step, KDE calculates one of different possible probability densities
 
 This method is simply using basis spline function to approximate the underlying PDF. A B-spline function separates dataspce with equally-distanced hypotetical lines (or thier counterparts in case of working with higer dimensional data) and try to regress the data points trapped in each interval with a polynomial function. These continuous functions form the PDF which we will use later for calculating MI. B-spline results usually improve by increasing the function order. But when the final goal is estimating MI, increasing the order to more than 3 won't affect the result.
 
-![]()
+![](https://user-images.githubusercontent.com/27868570/54483438-24e53f80-4853-11e9-98f4-6bafe037fd64.png)
+
+*An example of using splines with different orders to approximate an underlying function. Venelli, A. (2010, April). Efficient entropy estimation for mutual information analysis using B-splines. In IFIP International Workshop on Information Security Theory and Practices (pp. 17-30). Springer, Berlin, Heidelberg.*
+
 </br> 
 </br> 
 </br> 
