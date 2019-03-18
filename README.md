@@ -79,7 +79,7 @@ Using a histogram is a simple, neat, and popular approach for MI estimation, whi
 
 **2.2. Adaptive Partitioning**
 
-Adaptive partitioning, as it is clear from its name, is another way of dividing data space into subsets and subsequent counting of the covered occurrences. The new thing about adaptive partitioning is that it does not confine itself to classic histogram bins, rather it feels free to use different-sized rectangular tiles to cover the data space in a way that increase the conditional independance between partitions. Partitioning is done through an iterative procedure in which after each step, the conditional independence of each tile regarding the other partitions will be examined using Chi-square statistical test.
+Adaptive partitioning, as it is clear from its name, is another way of dividing data space into subsets and subsequent counting of the covered occurrences. The new thing about adaptive partitioning is that it does not confine itself to classic histogram bins, rather it feels free to use different-sized rectangular tiles to cover the data space in a way that increase the conditional independence between partitions. Partitioning is done through an iterative procedure in which after each step, the conditional independence of each tile regarding the other partitions will be examined using Chi-square statistical test.
 
 ![](https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12918-017-0458-5/MediaObjects/12918_2017_458_Fig1_HTML.gif)
 
@@ -92,7 +92,7 @@ Adaptive partitioning, as it is clear from its name, is another way of dividing 
 **2.3. Kernel Density Estimation (KDE)**
 
 Kernel density estimation, outperforms both histogram and adaptive partitioning methods, in accuracy. But, not surprisingly, it is computationally a heavier and slower method. The main difference and advantage of KDE is its tolerance in partitioning. KDE not only does not restrict itself to rectangular, so to say, bins or any specific point in data space as the origin, and it also does not use strict lines at borders. What it uses is a kernel with an arbitrary width. This arbitrariness, again, is a weakness and makes the resulted PDF sensitive to the decision on the kernel width.
-In the next step, KDE calculates one of different possible probability densities including Gaussian, Rectangualr, and Epanechnikov around each data samples, add them up together to obtain a smooth PDF over all data samples from the superposition of these kernels. The resulted PDF is of high quality because of a smaller MSE rate.
+In the next step, KDE calculates one of different possible probability densities including Gaussian, Rectangular, and Epanechnikov around each data samples, add them up together to obtain a smooth PDF over all data samples from the superposition of these kernels. The resulted PDF is of high quality because of a smaller MSE rate.
 
 ![](http://4.bp.blogspot.com/-WIaKAWGI5eY/UVl2EufeQLI/AAAAAAAAAPQ/OocN9rEiCh0/s1600/KDEWIKI.png)
 
@@ -117,7 +117,7 @@ This method is simply using basis spline function to approximate the underlying 
 
 **2.5. K-Nearest Neighbor (KNN)**
 
-K-Nearest Neighbor method has a big difference with the previous MI estimators. It bypasses the PDF approximation phase and jumps right into the MI calculation phase. There is a family of KNN-based method for estimating MI, but the most popular one is the KSG. KSG uses a slightly modified MI formula in which the marginal and joint entropies for eache data smaple for each of two random variables are claculated using KL entropy estimator. KL entropy estimator computes entropy based on KNN idea, and with regards to the K smallest distances in a data set.
+K-Nearest Neighbor method has a big difference with the previous MI estimators. It bypasses the PDF approximation phase and jumps right into the MI calculation phase. There is a family of KNN-based method for estimating MI, but the most popular one is the KSG. KSG uses a slightly modified MI formula in which the marginal and joint entropies for each data sample for each of two random variables are calculated using KL entropy estimator. KL entropy estimator computes entropy based on KNN idea, and with regards to the K smallest distances in a data set.
 KSG results are of high precision and it is a great option while working with high dimensional data. KSG is capable of working with irregular PDFs and it, currently, is one of the most popular MI estimators.
 
 ![](https://user-images.githubusercontent.com/27868570/54495665-34fa2f00-48e6-11e9-8830-b32725f997ba.png)
