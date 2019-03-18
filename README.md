@@ -37,7 +37,7 @@ Information content of the outcome x with probability P(x):
 </br> 
 
 
-Entropy of an event with N outcomes with pribabilities P1...Pn:
+Entropy of an event with N outcomes with probabilities P1...Pn:
 
 ![](https://user-images.githubusercontent.com/27868570/52380294-87396c00-2a6d-11e9-8d82-acba394783db.png)
 </br> 
@@ -67,7 +67,7 @@ The main approaches for estimating MI, in a non-parametric way, are methods base
 
 **2.1. Histogram-based Estimation**
 
-Using a histogram is a simple, neat, and popular approach for MI estimation, which is computationally easy and efficient: we discretize the distribution into *N* number of bins, count the number of occurrences of smaples per bin. The number of bins is an arbitrary option, best decided on, cosidering the nature of our data. Using bins with constant width make our estimation too senstivie to the that arbitrary number of *N* which could lead ignoring some meaningful patterns in our data, only because some samples were interpreted within two neighboring, instead of one single bin. That is, constant bins number or their width is not sensitive to the changes in data stream, and therfore, not as efficient as the histogram estimation could potentially be. So another way is to focus on the bins width ratehr than their number and try to define them variably. This approach will reduce the estimation error, but would increase the complexity of the computation by adding a new probelm of how to dicide about the changing bin-width and how to implement the decision.
+Using a histogram is a simple, neat, and popular approach for MI estimation, which is computationally easy and efficient: we discretize the distribution into *N* number of bins, count the number of occurrences of samples per bin. The number of bins is an arbitrary option, best decided on, cosidering the nature of our data. Using bins with constant width make our estimation too sensitivie to the that arbitrary number of *N* which could lead ignoring some meaningful patterns in our data, only because some samples were interpreted within two neighboring, instead of one single bin. That is, constant bins number or their width is not sensitive to the changes in data stream, and therfore, not as efficient as the histogram estimation could potentially be. So another way is to focus on the bins width rather than their number and try to define them variably. This approach will reduce the estimation error, but would increase the complexity of the computation by adding a new problem of how to decide about the changing bin-width and how to implement the decision.
 
 ![](https://media.springernature.com/original/springer-static/image/art%3A10.1007%2Fs10700-014-9178-0/MediaObjects/10700_2014_9178_Fig10_HTML.gif)
 
@@ -151,4 +151,5 @@ What Tishby seems to find out through his information plane was dazzling:
 
 The information plane shows a really interesting path of information flow or in fact mutual information ratio, especially, in the last hidden layers of DNN. It seems like the last layers start with a very low mutual information with the input data which is understandable, because the input data passing through all the layers with all their neurons had enough time to scattered enough not to be statistically similar/dependance to the original data at the input layer. So, these layers start with low I(X;T) but spend training time to gather enough information and generalize the 'concepts' in the input data. Tishby called this phase of increasing I(X;T) 'fitting phase.'
 
-Then, as you see, the last hidden layers start to lose input information, but at the same time gain information, or in fact structures of information, similar to the labels data. So their I(T;Y) keep increasing while I(X;T) is decreasing. Tishby calls this phase, 'compression phase,' in which the network lose irrelevant data and compress its information flow.
+Then, as you see, the last hidden layers start to lose input information, but at the same time gain information, or in fact structures of information, similar to the labels data. So their I(T;Y) keep increasing while I(X;T) is decreasing. Tishby calls this phase, 'compression phase,' in which the network lose irrelevant data and compress its information flow. And according to Tishby, this phase change and 'forgetting' process is what makes the deep learning so efficient and successful.
+
