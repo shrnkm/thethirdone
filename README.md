@@ -140,6 +140,9 @@ To make his point, Tishby offers his readers a Markov-chain perspective of a DNN
 
 Tishby, then, defined a new plot for representing the information flow in a deep network, called 'information plane.' The x-axis of the information plane corresponds to I(X;T) which is mutual information between the input and the hidden layers. The y-axis corresponds to I(T;Y) which is mutual information between the hidden layers and the labels. In simple words, the horizontal axis tells us how much information a specific hidden layer is conveying about the input data and the vertical axis tells us how much information a specific hidden layer is conveying about the labels.
 
+What Tishby seems to find out through his information plane was dazzling.
+
+
 ![](https://d2r55xnwy6nx47.cloudfront.net/uploads/2017/09/DeepLearning_5001.jpg)
 
 *https://www.quantamagazine.org/new-theory-cracks-open-the-black-box-of-deep-learning-20170921/*
@@ -148,4 +151,3 @@ Tishby, then, defined a new plot for representing the information flow in a deep
 </br> 
 </br> 
 
-What Tishby seems to find out through his information plane was dazzling.
