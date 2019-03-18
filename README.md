@@ -151,3 +151,5 @@ What Tishby seems to find out through his information plane was dazzling:
 </br> 
 </br> 
 
+The information plane shows a really interesting path of information flow or in fact mutual information ratio, especially, in the last hidden layers of DNN. It seems like the last layers start with a very low mutual information with the input data which is understandable, because the input data passing through all the layers with all their neurons had enough time to scattered enough not to be statistically similar/dependance to the original data at the input layer. So, these layers start with low I(X;T) but spend training time to gather enough information and generalize the 'concepts' in the input data. Tishby called this phase of increasing I(X;T) 'fitting phase.'
+Then, as you see, the last hidden layers start to lose input information, but at the same time gain information, or in fact structures of information, similar to the labels data. So their I(T;Y) keep increasing while I(X;T) is decreasing. Tishby calls this phase, 'compression phase,' in which the network lose irrelevant data and compress its information flow.
