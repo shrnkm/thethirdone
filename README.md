@@ -132,6 +132,6 @@ KSG results are of high precision and it is a great option while working with hi
 
 How does 'Statistical Dependance' help understanding deep learning?
 -------------------------------------------------------------------------------- 
+Artificial neural networks were originaly designed to somehow replicate our biological neural network. Researcher were also partially hopeful to be able, by this replication, to learn a thing or two about the inner workings of human brain. But the irony is that the ANNs, especially the 'deep neural network' generation, turned to such a successful computational structure that its excellent behavior became a mysterious puzzle itself.
+Publishing three papers in 1999, 2015, and 2017, Tishby offered and explored an idea for demystifying the DNN excellency using information theory concepts. According to Tishby, the key feature of a DNN is its capacity to forget. It is crucial to forget because not all the input information is necessary for accomplishing the task at the output layer.
 
-
-But, it is still a considerable concern whether 
