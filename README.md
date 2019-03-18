@@ -143,3 +143,9 @@ Tishby, then, defined a new plot for representing the information flow in a deep
 ![](https://d2r55xnwy6nx47.cloudfront.net/uploads/2017/09/DeepLearning_5001.jpg)
 
 *https://www.quantamagazine.org/new-theory-cracks-open-the-black-box-of-deep-learning-20170921/*
+
+</br> 
+</br> 
+</br> 
+
+What Tishby seems to find out through his information plane was dazzling.
