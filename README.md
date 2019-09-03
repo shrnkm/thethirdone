@@ -1,14 +1,5 @@
 Stuff for Happiness
 --------
-
-### Short of the While
-[![Short Film of the While](https://user-images.githubusercontent.com/27868570/63492461-d6029c80-c4b9-11e9-9dd7-451cedbb39dd.png)](https://youtu.be/gNVqRC4mcSI)
-<br>
-<br>
-<br>
-<br>
-<br>
-
 If you're gonna watch the original version on bilibili, don't forget to toggle this ![on](https://user-images.githubusercontent.com/27868570/60772191-377dd000-a0f3-11e9-9960-5b5719da59b4.png) to this ![off](https://user-images.githubusercontent.com/27868570/60772198-48c6dc80-a0f3-11e9-87c6-dc1705101f52.png)
 
 ### Marvel Part I
