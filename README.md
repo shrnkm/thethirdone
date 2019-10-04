@@ -1,6 +1,14 @@
 Stuff for Happiness
 --------
 
+* * * 
+
+### Happiness of the While
+[![Stampede Early Warning System](https://user-images.githubusercontent.com/27868570/66236276-61df2980-e6f2-11e9-81ee-058c808b0c00.png)](https://www.facebook.com/Jackwhitehallfanpage/videos/1980161118863103/)
+
+* * * 
+* * * 
+
 If you're gonna watch the original versions on bilibili, don't forget to toggle this ![on](https://user-images.githubusercontent.com/27868570/60772191-377dd000-a0f3-11e9-9960-5b5719da59b4.png) to this ![off](https://user-images.githubusercontent.com/27868570/60772198-48c6dc80-a0f3-11e9-87c6-dc1705101f52.png)
 
 ### Marvel Part I
