@@ -1,8 +1,5 @@
 Stuff for Happiness
 --------
-
-* * * 
-
 ### Happiness of the While
 [![Nothing](https://michaelleong.files.wordpress.com/2013/06/snap-2013-06-04-at-15-16-52.png)](https://this-page-intentionally-left-blank.org/)
 
