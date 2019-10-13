@@ -7,7 +7,6 @@ Stuff for Happiness
 [![Nothing](https://michaelleong.files.wordpress.com/2013/06/snap-2013-06-04-at-15-16-52.png)](https://this-page-intentionally-left-blank.org/)
 
 * * * 
-* * * 
 
 If you're gonna watch the original versions on bilibili, don't forget to toggle this ![on](https://user-images.githubusercontent.com/27868570/60772191-377dd000-a0f3-11e9-9960-5b5719da59b4.png) to this ![off](https://user-images.githubusercontent.com/27868570/60772198-48c6dc80-a0f3-11e9-87c6-dc1705101f52.png)
 
