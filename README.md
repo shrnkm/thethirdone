@@ -4,7 +4,7 @@ Stuff for Happiness
 * * * 
 
 ### Happiness of the While
-[![Stampede Early Warning System](https://user-images.githubusercontent.com/27868570/66236276-61df2980-e6f2-11e9-81ee-058c808b0c00.png)](https://www.facebook.com/Jackwhitehallfanpage/videos/1980161118863103/)
+[![Nothing](https://michaelleong.files.wordpress.com/2013/06/snap-2013-06-04-at-15-16-52.png)](https://this-page-intentionally-left-blank.org/)
 
 * * * 
 * * * 
