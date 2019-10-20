@@ -1,7 +1,7 @@
 Stuff for Happiness
 --------
 ### 1. Happiness of the While
-[![Nothing](https://michaelleong.files.wordpress.com/2013/06/snap-2013-06-04-at-15-16-52.png)](https://this-page-intentionally-left-blank.org/)
+[![Nothing](https://user-images.githubusercontent.com/27868570/67156653-cbca1680-f321-11e9-84e3-59f5359b0979.png)](https://this-page-intentionally-left-blank.org/)
 
 * * * 
 
@@ -22,3 +22,8 @@ Stuff for Happiness
 
  #### 2.3. Marvel Mashup Part III
  [![Part III](https://user-images.githubusercontent.com/27868570/60772439-be807780-a0f6-11e9-8234-ee8f81ec584f.png)](https://music.163.com/#/video?id=9BDF2EDC3C5DC7CB8202522EC107A6E1)
+ 
+* * * 
+
+ #### 2.4. (Mostly) Marvel Mashup Part IV
+ [![Part IV](https://user-images.githubusercontent.com/27868570/67156613-2fa00f80-f321-11e9-988f-644873addc0c.png)](https://music.163.com/#/video?id=B51D6C7D5A6DFC993FC29E1E871E0635)
