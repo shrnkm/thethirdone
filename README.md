@@ -1,7 +1,7 @@
 Stuff for Happiness
 --------
 ### 1. Happiness of the While
-Nothing, absolutely nothing. I'm sad and depressed af.
+
 
 * * * 
 
