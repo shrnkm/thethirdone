@@ -1,11 +1,11 @@
 Stuff for Happiness
 --------
 ### 1. Happiness of the While
- [![HOW](https://user-images.githubusercontent.com/27868570/68067797-c1117780-fd4c-11e9-8ac2-d7fcbae1961e.png)](https://music.163.com/#/video?id=CC1DD5DDC77495C4AE2545D0CD4BF2B0)
+ 
 
 * * * 
 
-### 2. Eternal Happiness
+### 2. Eternal Happinesses
 #### 2.1. Marvel Mashup Part I
 [![Part I](https://user-images.githubusercontent.com/27868570/67157195-2adf5980-f329-11e9-9287-ecc07939c09f.png)](https://www.youtube.com/watch?v=nsFZvsZKuTU)
 
@@ -27,3 +27,8 @@ Stuff for Happiness
 
  #### 2.4. (Mostly) Marvel Mashup Part IV
  [![Part IV](https://user-images.githubusercontent.com/27868570/67156613-2fa00f80-f321-11e9-988f-644873addc0c.png)](https://music.163.com/#/video?id=B51D6C7D5A6DFC993FC29E1E871E0635)
+ 
+* * * 
+
+ #### 2.5. Killer in Suit
+[![HOW](https://user-images.githubusercontent.com/27868570/68067797-c1117780-fd4c-11e9-8ac2-d7fcbae1961e.png)](https://music.163.com/#/video?id=CC1DD5DDC77495C4AE2545D0CD4BF2B0)
