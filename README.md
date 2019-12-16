@@ -1,8 +1,7 @@
 Stuff for Happiness
 --------
 ### 1. Happiness of the While
-
-Nothing.
+[![9GaG](https://user-images.githubusercontent.com/27868570/70890754-14cade00-1fe6-11ea-96d4-e5bbd67f05c9.png)](https://9gag.com/gag/aV0gZYM)
 
 * * * 
 
