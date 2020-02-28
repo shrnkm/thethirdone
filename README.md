@@ -1,7 +1,6 @@
 Stuff for Happiness
 --------
 ### 1. Happiness of the While
-[![9GaG](https://user-images.githubusercontent.com/27868570/72428251-90f34580-378d-11ea-89fc-ba5184b3f015.png)](https://9gag.com/gag/aDgX0pK)
 * * * 
 
 ### 2. Eternal Happinesses
