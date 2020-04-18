@@ -1,7 +1,7 @@
 Stuff for Happiness
 --------
 ### 1. Happiness of the While
-[![L.O.V.E.](https://user-images.githubusercontent.com/27868570/79630740-35ea3980-8154-11ea-9513-3c4d611c6941.png)](https://www.youtube.com/watch?v=tmSzRx9RYLk)
+[![L.O.V.E.](https://mediad.publicbroadcasting.net/p/shared/npr/styles/x_large/nprshared/202001/703828411.jpg)](https://www.youtube.com/watch?v=JErVP6xLZwg)
 * * * 
 
 ### 2. Eternal Happinesses
